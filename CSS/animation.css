@@ -1,8 +1,0 @@
-tr:hover {
-    background-color: #dddddd;
-}
-
-button[type="button"]:hover {
-    background-color: #247929;
-    cursor: pointer;
-}
