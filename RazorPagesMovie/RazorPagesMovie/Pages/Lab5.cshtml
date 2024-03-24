@@ -1,0 +1,112 @@
+@page
+@model MyApp.Namespace.lab5Model
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Form</title>
+    <style>
+        .button {
+            background-color: #c742b5; 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px; 
+        }
+        
+        .button:hover {
+            background-color: #a70190; 
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+        }
+
+        #generalApp {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center; 
+        }
+
+        .container {
+            display: inline-block;
+            text-align: left;
+        }
+
+        #calculateResult {
+            background-color: #f0f0f0; 
+            padding: 10px;
+            border-radius: 8px; 
+            margin-top: 20px;
+            max-width: 300px; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div id="generalApp">
+        <h1>Addition Form</h1>
+        <button class="button" onclick="toggleFunc()">Display Form</button>
+        <hr>
+        <div id="elementsToToggle" style="display: none;">
+            <div class="container">
+                <label for="element1">Enter first number:</label><br>
+                <input id="element1" name="element1" type="number">
+                <br><br>
+                <label for="element2">Enter second number:</label><br>
+                <input id="element2" name="element2" type="number">
+                <hr>
+                <div style="text-align: center;"> 
+                    <button class="button" onclick="calculateFunc()">Calculate Sum</button>
+                </div>
+                <br>
+                <div id="calculateResult" style="display: none;">
+                    <div style="background-color: #c742b5; color: white; padding: 10px; border-radius: 8px;">
+                        <span id="resultField"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleFunc() {
+            var elementsToToggle = document.getElementById('elementsToToggle');
+            if (elementsToToggle.style.display === 'none') {
+                elementsToToggle.style.display = 'block';
+            } else {
+                elementsToToggle.style.display = 'none';
+            }
+        }
+
+        function calculateFunc() {
+            var element1 = document.getElementById("element1").value;
+            var element2 = document.getElementById("element2").value;
+            var calculateResult = document.getElementById('calculateResult');
+
+            if (!(element1)) element1 = 0;
+            if (!(element2)) element2 = 0;
+
+            var result = addNumbers(element1, element2);
+
+            document.getElementById("resultField").innerText = "The sum of " + element1 + " + " + element2 + " equals: " + result;
+
+            if (calculateResult.style.display === 'none') {
+                calculateResult.style.display = 'block';
+            }
+        }
+
+        function addNumbers(n1, n2) {
+            return parseFloat(n1) + parseFloat(n2);
+        }
+    </script>
+</body>
+</html>
