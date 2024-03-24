@@ -1,3 +1,4 @@
+// lab5.js added.
 function centerForm() {
     var form = document.getElementById("generalApp");
     form.style.position = "fixed";
