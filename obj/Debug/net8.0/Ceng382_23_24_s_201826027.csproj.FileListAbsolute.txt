@@ -1,0 +1,15 @@
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.exe
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.deps.json
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.runtimeconfig.json
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.dll
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.pdb
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.AssemblyInfoInputs.cache
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.AssemblyInfo.cs
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.csproj.CoreCompileInputs.cache
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.sourcelink.json
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.dll
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\refint\Ceng382_23_24_s_201826027.dll
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.pdb
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.genruntimeconfig.cache
+C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\ref\Ceng382_23_24_s_201826027.dll
