@@ -6,6 +6,8 @@ class Program
     {
         var roomHandler = new RoomHandler("RoomData.json");
         var reservationRepository = new ReservationRepository("ReservationData.json");
+        var logger = new FileLogger("LogData.json");
+        var logHandler = new LogHandler(logger);
 
         var reservationHandler = new ReservationHandler(reservationRepository, logHandler, roomHandler);
         var reservationService = new ReservationService(reservationHandler);
