@@ -1,54 +1,44 @@
-using System;
 using System.Collections.Generic;
 
 public class ReservationHandler
 {
-    private Reservation[,] reservations = new Reservation[7, 24]; 
+    private readonly IReservationRepository _reservationRepository;
+    private readonly LogHandler _logHandler;
+    private readonly RoomHandler _roomHandler;
 
-    public void AddReservation(Reservation reservation)
+    public ReservationHandler(IReservationRepository reservationRepository, LogHandler logHandler, RoomHandler roomHandler)
     {
-        int day = (int)reservation.Date.DayOfWeek;
-        int hour = reservation.Time.Hour;
-
-        if (reservations[day, hour] == null)
-        {
-            reservations[day, hour] = reservation;
-            Console.WriteLine("Reservation added successfully.");
-        }
-        else
-        {
-            Console.WriteLine("Time slot is already booked.");
-        }
+        _reservationRepository = reservationRepository;
+        _logHandler = logHandler;
+        _roomHandler = roomHandler;
     }
 
-    public void DeleteReservation(DateTime date, DateTime time)
+    public void AddReservation(Reservation reservation, string reserverName)
     {
-        int day = (int)date.DayOfWeek;
-        int hour = time.Hour;
-
-        if (reservations[day, hour] != null)
-        {
-            reservations[day, hour] = null;
-            Console.WriteLine("Reservation deleted successfully.");
-        }
-        else
-        {
-            Console.WriteLine("No reservation found at the specified time.");
-        }
+        _reservationRepository.AddReservation(reservation);
+        var log = new LogRecord(DateTime.Now, reserverName, reservation.Room.Name);
+        _logHandler.AddLog(log);
     }
 
-    public void DisplayWeeklySchedule()
+    public void DeleteReservation(Reservation reservation)
     {
-        for (int day = 0; day < 7; day++)
-        {
-            for (int hour = 0; hour < 24; hour++)
-            {
-                if (reservations[day, hour] != null)
-                {
-                    var reservation = reservations[day, hour];
-                    Console.WriteLine($"{(DayOfWeek)day}, {hour}:00 - {reservation.ReserverName} in {reservation.Room.RoomName}");
-                }
-            }
-        }
+        _reservationRepository.DeleteReservation(reservation);
+        var log = new LogRecord(DateTime.Now, reservation.ReserverName, reservation.Room.Name);
+        _logHandler.AddLog(log);
+    }
+
+    public List<Reservation> GetAllReservations()
+    {
+        return _reservationRepository.GetAllReservations();
+    }
+
+    public List<Room> GetRooms()
+    {
+        return _roomHandler.GetRooms();
+    }
+
+    public void SaveRooms(List<Room> rooms)
+    {
+        _roomHandler.SaveRooms(rooms);
     }
 }

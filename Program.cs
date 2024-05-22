@@ -4,7 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        ReservationHandler handler = new ReservationHandler();
+        var roomHandler = new RoomHandler("RoomData.json");
+        var reservationRepository = new ReservationRepository("ReservationData.json");
+
+        var reservationHandler = new ReservationHandler(reservationRepository, logHandler, roomHandler);
+        var reservationService = new ReservationService(reservationHandler);
 
         while (true)
         {
@@ -31,24 +35,25 @@ class Program
                     string reserverName = Console.ReadLine();
                     Console.Write("Enter Reservation Date (yyyy-mm-dd): ");
                     DateTime date = DateTime.Parse(Console.ReadLine());
-                    Console.Write("Enter Reservation Time (hh:mm): ");
+                    Console.Write("Enter Reservation Time (HH:mm): ");
                     DateTime time = DateTime.Parse(Console.ReadLine());
 
                     Reservation reservation = new Reservation(time, date, reserverName, room);
-                    handler.AddReservation(reservation);
+                    reservationService.AddReservation(reservation, reserverName);
                     break;
 
                 case 2:
                     Console.Write("Enter Reservation Date (yyyy-mm-dd): ");
                     DateTime deleteDate = DateTime.Parse(Console.ReadLine());
-                    Console.Write("Enter Reservation Time (hh:mm): ");
+                    Console.Write("Enter Reservation Time (HH:mm): ");
                     DateTime deleteTime = DateTime.Parse(Console.ReadLine());
 
-                    handler.DeleteReservation(deleteDate, deleteTime);
+                    Reservation deleteReservation = new Reservation(deleteTime, deleteDate, string.Empty, null);
+                    reservationService.DeleteReservation(deleteReservation);
                     break;
 
                 case 3:
-                    handler.DisplayWeeklySchedule();
+                    reservationService.DisplayWeeklySchedule();
                     break;
 
                 case 4:
