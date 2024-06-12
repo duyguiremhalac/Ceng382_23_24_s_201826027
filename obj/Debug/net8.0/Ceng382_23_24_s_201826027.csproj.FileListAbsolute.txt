@@ -13,3 +13,18 @@ C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\
 C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.pdb
 C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.genruntimeconfig.cache
 C:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\obj\Debug\net8.0\ref\Ceng382_23_24_s_201826027.dll
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.exe
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.deps.json
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.runtimeconfig.json
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.dll
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\bin\Debug\net8.0\Ceng382_23_24_s_201826027.pdb
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.AssemblyInfoInputs.cache
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.AssemblyInfo.cs
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.csproj.CoreCompileInputs.cache
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.sourcelink.json
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.dll
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\refint\Ceng382_23_24_s_201826027.dll
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.pdb
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\Ceng382_23_24_s_201826027.genruntimeconfig.cache
+c:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\obj\Debug\net8.0\ref\Ceng382_23_24_s_201826027.dll
