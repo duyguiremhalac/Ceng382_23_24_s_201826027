@@ -29,3 +29,14 @@ c:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\
 c:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.pdb
 c:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.genruntimeconfig.cache
 c:\Users\Duygu\Desktop\CENG 382 - Web Development\LAB\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\ref\RazorPagesMovie.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfo.cs
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cs
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.sourcelink.json
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\refint\RazorPagesMovie.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_201826027\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.pdb
